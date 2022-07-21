@@ -1,14 +1,15 @@
 
 
-const itemproduct = () => {
+const Itemproduct1 = (props) => {
+    console.log("propiedades: ", props.title, props.price, props.img)
     return(
         <div>
-            <img src="" alt="imagen producto" />
-            <p>Producto1</p>
-            <span>$ 4500</span>
+            <img src={props.imgsrc} alt="imagen producto" />
+            <p>{props.title}</p>
+            <span>{props.price}</span>
             <button>comprar</button>
         </div>
     )
 }
 
-export default itemproduct
+export default Itemproduct1
