@@ -3,7 +3,6 @@
 const NavBar = () => {
     return (
         <div>
-            <h1>Logo</h1>
             <ul>
                 <li><button>Inicio</button></li>
                 <li><button>Ofertas</button></li>
